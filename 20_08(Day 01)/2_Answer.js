@@ -1,7 +1,7 @@
-num = 4562;
-a=num%10;
-b=num%100;
-c=num%1000;
-d=num%10000;
+//Q2. Find 3 largest numbers in an array
+let arr = [4, 5, 8, 6];
 
-console.log(a, ",", b, ",", c, ",", d);
+// Sort in descending order and pick first 3
+let largestThree = arr.sort((x, y) => y - x).slice(0, 3);
+
+console.log(largestThree); // [8, 6, 5]
