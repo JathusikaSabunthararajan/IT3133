@@ -1,0 +1,5 @@
+1) Swap 2 numbers without temporary variable
+
+2) Find 3 large numbers among given array of numbers
+
+3) 
